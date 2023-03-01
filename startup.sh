@@ -1,1 +1,1 @@
-gunicorn -w 2 -k uvicorn.worker.uvicornworker firewall_interface:app
+gunicorn -w 2 -k uvicorn.workers.UvicornWorker firewall_interface:app
