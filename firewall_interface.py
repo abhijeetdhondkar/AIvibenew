@@ -124,5 +124,5 @@ def predict_breach(data:data_breache):
         }
 
 if __name__ == '__main__':
-    uvicorn.run(app, host='vibeaiapi.azurewebsites.net', port=5000)
+    uvicorn.run(app, debug=True)
 
